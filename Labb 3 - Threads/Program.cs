@@ -19,7 +19,7 @@ Car.GetInfo(porsche);
 Console.WriteLine("To start the race, press Enter");
 Console.ReadKey();
 
-Console.WriteLine("\nThe race as started!");
+Console.WriteLine("\nThe race has started!");
 Console.WriteLine("\nPress any key to get info on the cars");
 
 bgThread.Start();
