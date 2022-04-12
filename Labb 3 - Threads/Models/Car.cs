@@ -30,7 +30,7 @@ namespace Labb_3___Threads.Models
             eventThread.Start();
 
             car.Speed = 120;
-            while (car.Distance < 0.5)
+            while (car.Distance < 5)
             {
                 car.Distance += car.Speed / 3600;
                 Thread.Sleep(1000);

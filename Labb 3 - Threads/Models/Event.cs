@@ -12,7 +12,7 @@ namespace Labb_3___Threads.Models
 
         public static void Events(Car car)
         {
-            Thread.Sleep(30000);
+            Thread.Sleep(10000);
 
             double carSpeed = car.Speed;
             double carStop = 0;
